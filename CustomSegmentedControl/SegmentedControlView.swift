@@ -64,45 +64,6 @@ struct SegmentedControlView: View {
 	}
 }
 
-struct CustomSegmentedView_Previews: PreviewProvider {
-	@State static var selectedIndex: Int = 0
-
-	static var previews: some View {
-		let titles: [String] =
-			["First",
-			 "Second",
-			 "Third",
-			 "Fourth",
-			 "Fifth",
-			 "Sixth",
-			 "Seventh",
-			 "Eighth",
-			 "Ninth",
-			 "Tenth",
-			 "Eleventh",
-			 "Twelfth",
-			 "Thirteenth",
-			 "Fourteenth",
-			 "Fifteenth",
-			 "Sixteenth",
-			 "Seventeenth",
-			 "Eighteenth",
-			 "Nineteenth",
-			 "Tweentieth"
-			]
-
-		Group
-		{
-			SegmentedControlView(selectedIndex: $selectedIndex, titles: titles)
-				.previewDevice("iPad Pro (11-inch) (3rd generation)")
-
-			SegmentedControlView(selectedIndex: $selectedIndex, titles: titles)
-				.preferredColorScheme(.dark)
-				.previewDevice("iPhone 11")
-		}
-	}
-}
-
 private struct SegmentedControlButtonView: View {
 	@Binding private var selectedIndex: Int
 	@Binding private var frames: [CGRect]
