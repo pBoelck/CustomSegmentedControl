@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2378DA99269D7677006E3C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378DA96269D7677006E3C8B /* ContentView.swift */; };
+		23475AC826E3F5710015E622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23475AC726E3F5710015E622 /* ContentView.swift */; };
+		2378DA99269D7677006E3C8B /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378DA96269D7677006E3C8B /* SegmentedControlView.swift */; };
 		2378DA9A269D7677006E3C8B /* RectPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378DA97269D7677006E3C8B /* RectPreference.swift */; };
 		2378DA9B269D7677006E3C8B /* UnderlineModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378DA98269D7677006E3C8B /* UnderlineModifier.swift */; };
 		2392D1DB269D760E001A615A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392D1DA269D760E001A615A /* AppDelegate.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2378DA96269D7677006E3C8B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23475AC726E3F5710015E622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2378DA96269D7677006E3C8B /* SegmentedControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		2378DA97269D7677006E3C8B /* RectPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectPreference.swift; sourceTree = "<group>"; };
 		2378DA98269D7677006E3C8B /* UnderlineModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineModifier.swift; sourceTree = "<group>"; };
 		2392D1D7269D760E001A615A /* CustomSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +62,8 @@
 		2392D1D9269D760E001A615A /* CustomSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				2378DA96269D7677006E3C8B /* ContentView.swift */,
+				23475AC726E3F5710015E622 /* ContentView.swift */,
+				2378DA96269D7677006E3C8B /* SegmentedControlView.swift */,
 				2378DA97269D7677006E3C8B /* RectPreference.swift */,
 				2378DA98269D7677006E3C8B /* UnderlineModifier.swift */,
 				2392D1DA269D760E001A615A /* AppDelegate.swift */,
@@ -153,9 +156,10 @@
 			files = (
 				2378DA9A269D7677006E3C8B /* RectPreference.swift in Sources */,
 				2378DA9B269D7677006E3C8B /* UnderlineModifier.swift in Sources */,
+				23475AC826E3F5710015E622 /* ContentView.swift in Sources */,
 				2392D1DB269D760E001A615A /* AppDelegate.swift in Sources */,
 				2392D1DD269D760E001A615A /* SceneDelegate.swift in Sources */,
-				2378DA99269D7677006E3C8B /* ContentView.swift in Sources */,
+				2378DA99269D7677006E3C8B /* SegmentedControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

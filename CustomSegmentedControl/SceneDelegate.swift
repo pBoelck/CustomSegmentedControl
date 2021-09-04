@@ -9,32 +9,6 @@ import UIKit
 import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
-	@State var selectedIndex: Int = 0
-
-	let titles: [String] =
-		["First",
-		 "Second",
-		 "Third",
-		 "Fourth",
-		 "Fifth",
-		 "Sixth",
-		 "Seventh",
-		 "Eighth",
-		 "Ninth",
-		 "Tenth",
-		 "Eleventh",
-		 "Twelfth",
-		 "Thirteenth",
-		 "Fourteenth",
-		 "Fifteenth",
-		 "Sixteenth",
-		 "Seventeenth",
-		 "Eighteenth",
-		 "Nineteenth",
-		 "Tweentieth"
-		]
-
 	var window: UIWindow?
 
 
@@ -44,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		// This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
 		// Create the SwiftUI view that provides the window contents.
-		let contentView = ContentView(selectedIndex: $selectedIndex, titles: titles)
+		let contentView = ContentView()
 
 		// Use a UIHostingController as window root view controller.
 		if let windowScene = scene as? UIWindowScene {
